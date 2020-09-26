@@ -1,0 +1,158 @@
+#main {
+    background-color: lightgrey;
+    padding: 5px 10px 5px 10px;
+    margin: 15px 15px 15px 15px;
+    /* border: 15px solid;
+    border-color: lightslategray;
+    border-radius: 4px 4px 4px 4px; */
+}
+
+#title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5cm;
+    text-align: center;
+}
+
+#nav-list {
+    list-style-type: none;
+}
+/* ^ to get rid of bullet points from <ul>  */
+
+#main {
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.top-nav {
+    background-color: black;
+    padding: 15px;
+    margin: 15px 15px 15px 15px;
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+    margin: 0;  
+    padding: 0;
+    font-size: 30px;
+    
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#column1 {
+    align-self: center;
+}
+
+/* #Gallery { 
+    max-width: 100%;
+    height: auto;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* ^ responsive image */
+
+#img-div {
+    margin: 3% 3%;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+#Biography {
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+#tribute-info {
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    height: auto;
+    
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+  } 
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  /* ^ it is a horizontally centerred flexbox with images  */
+ 
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+      vertical-align: middle;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+      vertical-align: middle;
+    }
+  }
+
+  #Quote {
+      display: flex;
+      background: lightslategray;
+      border-radius: 5px 5px 5px 5px;
+  }
+
+  #footer-quote {
+    background-color: white;  
+    border-radius: 2px 2px 2px 2px;
+    padding: 5% 5%;
+   
+    margin: auto; 
+    text-align: center;
+    width: 50%;
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    font-size: 20px;
+  }
+
+  #footer-image {
+      padding: 2% 2%;
+  }
+
+  #tribute-link {
+      text-align: center;
+  }
+
+  /* continue with how to insert image caption?
+also, start from the user story #4  */
+
